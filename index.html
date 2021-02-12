@@ -5,30 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Technical Doc Page</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav id="navbar">
-      <header>Js Documentation</header>
-      <a href="#Intoduction_to_Javascript">Introduction</a>
-      <a href="#should_know">Should know</a>
-      <a href="#Javascript_and_Java">Javascript and Java</a>
-      <a href="#Hello_world">Hello world</a>
-      <a href="#variables">Variables</a>
-      <a href="#Declaring_variable">Declaring variable</a>
-      <a href="#Variable_scope">Variable scope</a>
-      <a href="#Global_variable">Global variable</a>
-      <a href="#Constant">Constant</a>
-      <a href="#Data_type">Data_type</a>
-      <a href="#if_else statement">if_else statement</a>
-      <a href="#while_statement">while statement</a>
-      <a href="#Functio_declarations">Functio_declarations</a>
-      <a href="#Reference">Reference</a>
+      <header id="docu">Js Documentation</header>
+      <div id="anchor">
+        <a href="#Intoduction_to_Javascript">Introduction</a>
+        <a href="#should_know">What Should you alrady know</a>
+        <a href="#Javascript_and_Java">Javascript and Java</a>
+        <a href="#Hello_world">Hello world</a>
+        <a href="#variables">Variables</a>
+        <a href="#Declaring_variable">Declaring variable</a>
+        <a href="#Variable_scope">Variable scope</a>
+        <a href="#Global_variable">Global variable</a>
+        <a href="#Constant">Constant</a>
+        <a href="#Data_type">Data_type</a>
+        <a href="#if_else statement">if_else statement</a>
+        <a href="#while_statement">while statement</a>
+        <a href="#Functio_declarations">Functio_declarations</a>
+        <a href="#Reference">Reference</a>
+      </div>
     </nav>
     <main id="main-doc">
       <section id="main-section">
         <header id="Intoduction_to_Javascript">
-          Introduction to javascript
+          Introduction
         </header>
         <p class="para">
           JavaScript is a cross-platform, object-oriented scripting language. It
@@ -395,13 +397,25 @@
           specifies the value returned by the function.
         </p>
         <code>return number * number;</code>
-        <p class="para">Primitive parameters (such as a number) are passed to functions by value; the value is passed to the function, but if the function changes the value of the parameter, this change is not reflected globally or in the calling function.</p>
+        <p class="para">
+          Primitive parameters (such as a number) are passed to functions by
+          value; the value is passed to the function, but if the function
+          changes the value of the parameter, this change is not reflected
+          globally or in the calling function.
+        </p>
       </section>
       <section id="main_section">
-          <header id="Reference">Reference</header>
-          <ul>
-              <li>All the documentation in this page is taken from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"> MDN</a></li>
-          </ul>
+        <header id="Reference">Reference</header>
+        <ul>
+          <li>
+            All the documentation in this page is taken from
+            <a class="mdn" target="_blank"
+              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            >
+              MDN</a
+            >
+          </li>
+        </ul>
       </section>
     </main>
   </body>
